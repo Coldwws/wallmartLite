@@ -1,0 +1,359 @@
+.header-panel{
+    margin-left: 55px;
+}
+
+.block-content{
+    margin-left: 50px;
+    display: flex;
+}
+.intro{
+    margin-left: 40px;
+}
+.block-left{
+    width: 400px;
+    margin-top: 40px;
+    border-right: 1px solid gray;
+}
+.navigation ul li{
+    margin-top: 20px;
+    font-size: 20px;
+    transition: transform .6s ease;
+}
+.navigation ul li:hover, .navigation ul a:hover{
+    color:red;
+    transform: scale(1.05);
+}
+.navigation ul a{
+    text-decoration: none;
+    color: black;
+}
+.block-right{
+
+    width: 1450px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-left{
+    margin-top: 30px;
+    margin-left: 25px;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    margin-right: 200px;
+
+}
+.header-right a{
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+}
+
+.walmart-cash{
+    color: #002d58;
+    font-weight: 700;
+    font-size: 1.7rem;
+    padding: 0px 8px;
+}
+
+.right-content{
+    margin-left: 30px;
+    width: 1225px;
+}
+.purchase-block{
+    margin-top: 50px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    padding: 16px 16px;
+    background-color: #f2f8fd;
+}
+.purchase-history{
+    display: flex;
+    align-items: center;
+}
+.purchase-text{
+    margin-left: 20px;
+    font-weight: 700;  
+}
+.purchase-text a{
+    color: black;
+    text-decoration: none;
+}
+.high-img{
+    margin-left: 890px;
+}
+.payment-block {
+    margin-top: 50px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    padding: 16px 16px;
+    background: #f2f8fd;
+    height: 350px;
+}
+
+.payment-methods {
+    display: flex;
+    align-items: center;
+}
+
+.payment-text {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.payment-text a {
+    text-decoration: none;
+    color: black;
+}
+
+.separator {
+    margin-left: 10px;
+}
+
+.phigh-img {
+    margin-left: auto; 
+}
+.about-payment{
+    margin-left: 7px;
+    font-size: 20px;
+}
+.about-payment a{
+    color: black;
+}
+.blocks-in-payment{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.blocks-in-payment a{
+    text-decoration: none;
+    color: black;
+    transition: transform .6s ease;
+}
+.blocks-in-payment a:hover{
+    color: red;
+    transform: scale(1.05) ;
+}
+.first-block-in{
+    width: 250px;
+    height: 150px;
+    background-color:white;
+    border-radius: 15px;
+    border: 1px solid gray;
+}
+.button-for-payment{
+    border: 0;
+    width: 250px;
+    height: 150px;
+    background: white;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.first-block-img{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.text-in-first{
+    margin-left: 13px;
+    font-size: 20px;
+}
+.second-block-in {
+    width: 250px;
+    height: 150px;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid gray;
+}
+
+
+.second-block-img {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.text-in-second {
+    font-size: 20px;
+}
+.third-block-in{
+    width: 250px;
+    height: 150px;
+    background-color:white;
+    border-radius: 15px;
+    border: 1px solid gray;
+}
+
+.third-block-img {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.text-in-third {
+    font-size: 20px;
+}
+.fourth-block-in{
+    width: 250px;
+    height: 150px;
+    background-color:white;
+    border-radius: 15px;
+    border: 1px solid gray;
+}
+.fourth-block-img{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.account-block{
+    width: 1220px;
+    height: 400px;
+    margin-top: 25px;
+    border-radius: 15px;
+    border: 1px solid gray;
+}
+
+.account-info{
+    background: #f2f8fd;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    height: 130px;
+    display: flex;
+}
+.account-logo{
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.left-right-side{
+    display: flex;
+}
+.info-bottom {
+    margin-left: 20px;
+}
+.info-bottom a{
+    cursor: pointer;
+    color: black;
+}
+.bottom-text{
+    font-size: 20px;
+}
+.header-high{
+    margin-top: 15px;
+    margin-left: 720px;
+}
+.left-side{
+    padding: 8px 16px;
+    width: 600px;
+    height: 130px;
+    border-right:1px solid gray ;
+    border-bottom: 1px solid gray;
+}
+.left-side h2{
+    margin-left: 20px;
+}
+.left-side-text{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.verif-link{
+    margin-left: 10px;
+    color: black;
+}
+.account-block a:hover{
+    color: #002d58;
+}
+.bottom-side{
+    padding: 8px 16px;
+    width: 578px;
+    border-right:1px solid gray ;
+    height: 108px;
+}
+.bottom-side h2{
+    margin-left: 20px;
+}
+.bottom-text-s{
+    margin-left: 20px;
+}
+.phone-link{
+    color: black;
+    font-size: 20px;
+}
+.right-side {
+    padding: 8px 16px;
+    width: 600px;
+    height: 108px;
+}
+.right-side h2{
+    margin-left: 10px;
+}
+.right-side-text{
+    margin-left: 10px;
+    font-weight: 500;
+}
+.right-side-button{
+    margin-top: 50px;
+    margin-left: 10px;
+    padding: 24px 36px;
+    border-radius: 20px;
+    background: white;
+    cursor: pointer;
+    font-weight: 700;    
+    font-size: 1rem;
+}
+.lists{
+    border: 1px solid gray;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 25px;
+    width:1230px;
+    height: 200px;
+}
+.header-list{
+    background: #f2f8fd;
+    height: 100px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px ;
+    display: flex;
+    align-items: center;
+}
+.heart-img{
+    margin-left: 25px;
+}
+.List{
+    margin-left: 20px;
+}
+.list-high{
+    margin-left: 1040px;
+}
+.list-content{
+    display: flex;
+    align-items: center;
+}
+.list-img{
+    margin-left: 25px;
+}
+.list-text{
+    margin-left: 10px;
+}
+.list-text-bottom{
+    margin-left: 10px;
+    font-size: 18px;
+}
+.list-content a{
+    margin-left: 700px;
+    color: black;
+    font-size: 20px;
+}
+.list-button{
+    padding: 16px 36px;
+    margin-left: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    background: white;
+
+}

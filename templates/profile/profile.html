@@ -1,0 +1,199 @@
+{% extends "base.html" %}
+
+{% block style %}
+<link rel="stylesheet" href="/static/css/profile.css">
+
+{% endblock style %}
+
+{% block content %}
+<div class="header-panel">
+    <ol>
+        <span class="account"><a href="">My account</a></span>
+        <span>/</span>
+        <span class="home"><a href="">Home</a></span>
+    </ol>
+</div>
+<div class="block-content">
+    <div class="block-left">
+        <div class="intro">
+            <h1>
+                Hi, Edil
+            </h1>
+            <span class="intro-bottom">
+                Thanks for being a Walmart customer
+            </span>
+        </div>
+        <hr>
+        <div class="navigation">
+            <ul class="first-nav">
+                <li class="your-orders"><a href="">Purchase History</a></li>
+                <li class="my-savings"><a href="">My savings</a></li>
+                <li class="wallet"><a href="">Wallet</a></li>
+                <li class="walmart+"><a href="">Walmart+</a></li>
+            </ul>
+           <hr>
+            <ul class="second-nav">
+                <h3>My profile</h3>
+                <li class=""><a href="">Pets</a></li>
+                <li class=""><a href="">Vehicles</a></li>
+            </ul>            
+            <hr>
+
+            <ul class="third-nav">
+                <h3>Manage Account</h3>
+                <li class=""><a href="">Personal info</a></li>
+                <li class=""><a href="">Address</a></li>
+                <li class=""><a href="">Communications & privacy</a></li>
+                <li class=""><a href="">Giving & impact</a></li>
+                
+            </ul>
+           <hr>
+
+            <ul class="fourth-nav">
+                <h3>My items</h3>
+                <li class=""><a href="">Walmart Cash</a></li>
+                <li class=""><a href="">Reorder</a></li>
+                <li class=""><a href="">Lists</a></li>
+                <li class=""><a href="">Regisrties</a></li>
+            </ul>
+           <hr>
+            <ul class="five-nav">
+                <h3>Subscriptions & plans</h3>
+                <li class=""><a href="">Protection plans</a></li>
+                <li class=""><a href="">Item subscription</a></li>
+            </ul>
+            <hr>
+
+            <ul class="six-nav">
+                <h3>Other Accounts</h3>
+                <li class=""><a href="">Pharmacy</a></li>
+                <li class=""><a href="">Photo</a></li>
+                <li class=""><a href="">Ebooks</a></li>
+            </ul>
+            <hr>
+
+            <ul class="seven-nav">
+                <h3>Privacy</h3>
+                <li class=""><a href="">Privacy Policy</a></li>
+                <li class=""><a href="">Your Privacy Choices</a></li>
+                <li class=""><a href="">Request My Personal Information</a></li>
+            </ul>
+            <hr>
+
+            <ul class="eight-nav">
+                <h3>Customer Service</h3>
+                <li class=""><a href="">Help</a></li>
+                <li class=""><a href="">Terms of Use</a></li>
+            </ul>
+            
+            <ul class="nine-nav">
+                <li class=""><a href="">Sign Out</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="block-right">
+        <div class="header">
+            <div class="header-left">
+                <h1>Welcome to your Account</h1>
+            </div>
+            <div class="header-right">
+                
+                <img class="header-right-img" src="/static/image/unnamed.png" alt="logo coin" width="55" height="40">
+                <span class="walmart-cash">$0 Walmart Cash</span>
+                <a href="">How to get more</a>
+
+            </div>
+         </div>
+         <div class="right-content">
+            <div class="purchase-block">
+                <div class="purchase-history">
+                    
+                    <img class="purchase-img" src="/static/image/1-134.png"  alt="purchase history" width="50" height="35">
+                    <span class="purchase-text"><a href=""><h2>Purchase history</h2></a></span>
+                    <img class="high-img" src="/static/image/больше.jpg" width="50" height="35">
+                   
+                </div>
+            </div>
+            <div class="payment-block">
+                <div class="payment-methods">
+                    <img class="payment-img" src="/static/image/21-212077_wallet-icon-png-transparent-png.png" alt="payment methods" width="50" height="35">
+                    <span class="payment-text"><a href=""><h2>Wallet </h2></a></span>
+                    <span class="separator">|</span>
+                    <span class="payment-text"><a href="">Payment methods</a></span>
+                    <img class="phigh-img" src="/static/image/больше.jpg" width="50" height="35">
+                </div>
+                <span class="about-payment">Learn more about<a href=""> payment methods</a> we accept</span>
+                <div class="blocks-in-payment">
+                    <div class="first-block-in">
+                        <button class="button-for-payment">
+                            <img class="first-block-img"src="/static/image/bank card.jpg" alt="card photo" width="110" height="90">
+                            <span  class="text-in-first"><a href="">Credit/debit card</a></span>
+                        </button>
+                    </div>
+                    <div class="second-block-in">
+                        <button class="button-for-payment">
+                            <img class="second-block-img" src="/static/image/walmart-gift card.jpg" alt="gift photo" width="110" height="90">
+                            <span class="text-in-second"><a href="">Gift card</a></span>
+                        </button>
+                    </div>
+                    <div class="third-block-in">
+                        <button class="button-for-payment">
+                            <img src="/static/image/EBT.jpg" alt="" class="third-block-img" width="110" height="90">
+                            <span class="text-in-third"><a href="">Electronic benefits <br>transfer</br></a></span>
+                        </button>
+                    </div>
+                    <div class="fourth-block-in">
+                        <button class="button-for-payment">
+                            <img src="/static/image/last-card.jpg" alt="" class="fourth-block-img" width="120" height="90">
+                            <span class="text-in-third"><a href="">Benefit card</a></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="account-block">
+                            <div class="account-info">
+                                <img class="account-logo" src="/static/image/Account-User-PNG-Clipart.png" alt="user-logo" width="30" height="30">
+                                <span class="info-bottom"><a href=""><h2 class="info-text">Account info</h2>
+                                <p class="bottom-text">Addresses, contact, information and password</p></a> </span>
+                                <img src="/static/image/больше.jpg" alt="" class="header-high" width="30" height="30">
+                        </div>
+                        <div class="left-right-side">
+                            <div class="left-side">
+                                <h2>Email Address</h2>
+                                <span class="left-side-text">mr.edil2004@mail.ru<a class="verif-link"href=""> Needs verification</a></span>
+                            </div>
+                            <div class="right-side">
+                                <h2>Add an address</h2>
+                                <span class="right-side-text">Adding an address allows for quicker checkout and approximation of delivery times</span>
+                                <button class="right-side-button">Add an Address</button>
+                            </div>
+                        </div>
+                        <div class="bottom-side">
+                            <h2>Phone number</h2>
+                            <span class="bottom-text-s"><a class="phone-link" href="">Add phone number</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="lists">
+                    <div class="header-list">
+                        <img class="heart-img" src="/static/image/сердечко.jpg" alt="сердечко лого" width="40" height="30">
+                        <h2 class="List">Lists</h2>
+                        <img src="/static/image/больше.jpg" alt="" class="list-high" width="30" height="30">
+                    </div>
+                    <div class="list-content">
+                        <img class="list-img" src="/static/image/лист.jpg" alt="list logo" width="50" height="50">
+                        <span class="list-text-"><h3 class="list-text">Edil`s list</h3>
+                        <p class="list-text-bottom">Items - Primary</p>
+                        </span>
+                        <a class="new_link" href="">+ Create new list</a>
+                        <button class="list-button">View list</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<footer>
+
+</footer>
+{% endblock content %}
